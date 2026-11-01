@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Error 1: Root renamed to NationalPark (incorrect)-->
+<NationalPark a:noNamespaceSchemaLocation="NationalParks.xsd" xmlns:a="http://www.w3.org/2001/XMLSchema-instance">
+	<NationalPark Rating="4.9"> <!-- 1st park - The rest of the park format will be similar to this-->
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="FlagStaff Pulliam Airport (FLG)">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!-- Based on the Official Google Map Rating - 2nd park-->
+		<!-- Error 2: Missing NearestAirport attribute -->
+		<Name>Yellowstone</Name>
+		<Phone>307-343-7381</Phone>
+		<Address>
+			<Number>1</Number>
+			<Street>Old Faithful Lodge</Street>
+			<City>Yellowstone</City>
+			<!--Placeholder city, since it doesn't sit in a specific city - 3rd park-->
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.7">
+		<!-- Based on the Official Google Map Rating - 4th park-->
+		<!--Error 3: Missing <Phone> element-->
+		<Name>Joshua Tree</Name>
+		<Address NearestAirport="Palm Springs International Airport (PSP)">
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!-- Based on the Official Google Map Rating - 5th park-->
+		<Name>Yosemite National Park</Name>
+		<Phone>209-372-0200</Phone>
+		<Address NearestAirport="Fresno Yosemite International Airport (FAT)">
+			<Number>9035</Number>
+			<Street>Village Dr</Street>
+			<City>Yosemite Valley</City>
+			<State>CA</State>
+			<Zip>95389</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!-- Based on the Official Google Map Rating - 6th park-->
+		<!--Error 4: One </Address> missing -->
+		<Name>Zion National Park</Name>
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport="St. George Regional Airport (SGU)">
+			<Number>1</Number>
+			<Street>Zion Park Blvd</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+	</NationalPark>
+	<NationalPark>
+		<!-- Based on the Official Google Map Rating - 7th park-->
+		<!-- Error 5: Two <Name> elements in one park-->
+		<Name>Glacier National Park</Name>
+		<Name>Glacier NP</Name>
+		<Phone>406-883-7200</Phone>
+		<Address NearestAirport="Glacier Park International Airport (FCA)">
+			<Number>64</Number>
+			<Street>Glacier Park Blvd</Street>
+			<City>West Glacier</City>
+			<State>MT</State>
+			<Zip>59936</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!-- Based on the Official Google Map Rating - 8th park-->
+		<Name>Rocky Mountain National Park</Name>
+		<Phone>970-586-4300</Phone>
+		<Address NearestAirport="Denver International Airport (DEN)">
+			<Number>1000</Number>
+			<Street>US Hwy 36</Street>
+			<City>Estes Park</City>
+			<State>CO</State>
+			<Zip>80517</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!-- Based on the Official Google Map Rating - 9th park-->
+		<Name>Acadia National Park</Name>
+		<Phone>207-288-4700</Phone>
+		<Address NearestAirport="Bangor International Airport (BHB)">
+			<Number>25</Number>
+			<Street>Visitor Center Road</Street>
+			<City>Bar Harbor</City>
+			<State>ME</State>
+			<Zip>04609</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!-- Based on the Official Google Map Rating - 10th park-->
+		<Name>Great Smoky Mountains National Park</Name>
+		<Phone>865-577-3700</Phone>
+		<Address NearestAirport="McGhee Tyson Airport (TYS)">
+			<Number>107</Number>
+			<Street>Great Smoky Mountains Blvd</Street>
+			<City>Gatlinburg</City>
+			<State>TN</State>
+			<Zip>37738</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!-- Based on the Official Google Map Rating - 11th park-->
+		<Name>Arches National Park</Name>
+		<Phone>435-719-2299</Phone>
+		<Address NearestAirport="Canyonlands Regional Airport (CNY)">
+			<Number>2500</Number>
+			<Street>Arches Dr</Street>
+			<City>Moab</City>
+			<State>UT</State>
+			<Zip>84532</Zip>
+		</Address>
+	</NationalPark>
+</NationalPark>
