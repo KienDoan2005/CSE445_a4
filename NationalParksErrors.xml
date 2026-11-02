@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--Error 1: Root renamed to NationalPark (incorrect)-->
-<NationalPark a:noNamespaceSchemaLocation="NationalParks.xsd" xmlns:a="http://www.w3.org/2001/XMLSchema-instance">
+<NationalPark 
+	xmlns="https://kiendoan2005.github.io/CSE445_a4"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://kiendoan2005.github.io/CSE445_a4 NationalParks.xsd">
 	<NationalPark Rating="4.9"> <!-- 1st park - The rest of the park format will be similar to this-->
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>866-499-2574</Phone>
-		<Address NearestAirport="FlagStaff Pulliam Airport (FLG)">
+		<Address NearestAirport="FlagStaff">
 			<Number>8</Number>
 			<Street>S Entrance Road</Street>
 			<City>Grand Canyon</City>

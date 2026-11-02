@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+<NationalParks 
+	xmlns="https://kiendoan2005.github.io/CSE445_a4"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="https://kiendoan2005.github.io/CSE445_a4 NationalParks.xsd">
 	<NationalPark Rating="4.9"> <!-- 1st park - The rest of the park format will be similar to this-->
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
